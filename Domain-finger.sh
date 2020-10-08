@@ -1,7 +1,7 @@
 file_name=$1
 
 fingerprint(){
-        echo $(cut $file_name -d "." -f 1 | sort -u)
+        echo -e "\n $(cut $file_name -d '.' -f 1 | sort -u | tr  -s '\t' '\n')"
 }
 
 if [ -f "$file_name" ];then
