@@ -1,7 +1,3 @@
 
-Simple bash script to make a unique wordlist from a domain list.
+Simple bash scripts to make a unique wordlist from a domain/url lists.
 
-use:
-
-
-Domain-finger.sh (domainlistfile)
